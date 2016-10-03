@@ -20,7 +20,7 @@ public class RandomizedSet {
 
     /** Inserts a value to the set. Returns true if the set did not already contain the specified element. */
 	public boolean insert(int val) {
-		if (m.containsKey(val))
+		if (m.containsKey(val))//hashmap查找一个元素最快时间复杂度为O(1)
 			return false;
 		else {// hashmap中不含val，则在m中建立新的映射，在list中添加val
 			int len = arrayList.size();
