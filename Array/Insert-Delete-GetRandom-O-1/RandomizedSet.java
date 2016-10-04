@@ -44,7 +44,7 @@ public class RandomizedSet {
 				arrayList.set(pos, last);
 			}
 			m.remove(val);
-			arrayList.remove(len - 1);
+			arrayList.remove(len - 1);//list中remove最后一个元素的时间复杂度为O(1)
 			return true;
 		}
 	}
