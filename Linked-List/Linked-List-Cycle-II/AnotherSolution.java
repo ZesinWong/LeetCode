@@ -7,7 +7,7 @@ public ListNode detectCycle(ListNode head) {
         fast = fast.next.next;
         slow = slow.next;
         if (fast == slow) {  // circle detected
-            while (head != fast) {
+            while (head != fast) {// a circle more than slow
                 fast = fast.next;
                 head = head.next;
             }
