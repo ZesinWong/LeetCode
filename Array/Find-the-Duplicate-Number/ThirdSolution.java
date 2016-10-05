@@ -29,7 +29,7 @@ public class Solution {
 	}
 }
 
-public class Solution {//5ms
+public class Solution {// 5ms
 	public static int findDuplicate(int[] nums) {
 		if (nums.length == 0 || nums == null)
 			return 0;
