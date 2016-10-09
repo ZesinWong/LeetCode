@@ -12,7 +12,7 @@ public class Solution {
 	public List<List<Integer>> combinationSum(int[] candidates, int target) {
 		Arrays.sort(candidates);// step one : candidate numbers sort
 		List<List<Integer>> result = new ArrayList<List<Integer>>();
-		getResult(result, new ArrayList<Integer>(), candidates, target, 0);
+		getResult(result, new ArrayList<Integer>(), candidates, target, 0);// step two:recursive
 		return result;
 	}
 
